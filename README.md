@@ -1,4 +1,4 @@
-# Cardiovascular Monitor 🩺📷
+# Cardiovascular Monitor
 
 A real-time cardiovascular monitoring system using a standard webcam and OpenCV.
 
