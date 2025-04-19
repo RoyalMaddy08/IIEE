@@ -36,6 +36,9 @@ Final results are displayed after the capture duration.
 
 === MEASUREMENT COMPLETE ===
 Heart Beat: 72 BPM
+
 SpO2: 98%
+
 Blood Pressure: 118/76 mmHg
+
 CV Load: 12/100
