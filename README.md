@@ -4,10 +4,10 @@ A real-time cardiovascular monitoring system using a standard webcam and OpenCV.
 
 This project extracts physiological signals from facial video — specifically the green channel intensity of the forehead region — to estimate cardiovascular metrics such as:
 
-- 💓 Heart Rate (BPM)  
-- 🌬️ SpO2 (Oxygen Saturation)  
-- 🩸 Blood Pressure (simulated)  
-- 📊 Cardiovascular Load
+-  Heart Rate (BPM)  
+-  SpO2 (Oxygen Saturation)  
+-  Blood Pressure (simulated)  
+-  Cardiovascular Load
 
 
 
@@ -35,6 +35,7 @@ Final results are displayed after the capture duration.
 
 
 === MEASUREMENT COMPLETE ===
+
 Heart Beat: 72 BPM
 
 SpO2: 98%
