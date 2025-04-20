@@ -1,5 +1,8 @@
+''' Run Step 1 and Step 2 in different cells of Juypter Notebook '''
+#Step 1:
 !pip install opencv-python
 
+#Step 2: 
 import cv2
 import numpy as np
 import time
@@ -45,8 +48,8 @@ class CardiovascularMonitor:
             return False
             
         # Calculate heart rate (simplified for demo)
-        self.heart_rate = int(60 + 20 * np.sin(time.time()/3))  # Varies 60-80 BPM
-        self.spo2 = min(100, max(90, 96 + int(4 * np.sin(time.time()/2))))  # Varies 92-100%
+        self.heart_rate = int(60 + 20 * np.sin(time.time()/3))  
+        self.spo2 = min(100, max(90, 96 + int(4 * np.sin(time.time()/2))))  
         self.blood_pressure = f"{110 + int(10 * np.sin(time.time()/4))}/{70 + int(8 * np.cos(time.time()/5))}"
         self.cv_load = min(100, int((self.heart_rate - 60) * 0.8 + (100 - self.spo2) * 1.5))
         
